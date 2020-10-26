@@ -12,7 +12,7 @@
             </div>
         </div>
         <div v-else>
-            <p>No Posts published at this time.</p>
+            <p></p>
         </div>
     </div>
 </template>

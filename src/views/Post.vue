@@ -19,10 +19,13 @@
 <script>
 import textmodule from '@/components/slices/textmodule';
 import imagemodule from '@/components/slices/imagemodule';
+import pageheadermodule from '@/components/slices/pageheadermodule';
 export default {
+    name: 'blog',
     components: {
     textmodule,
-    imagemodule
+    imagemodule,
+    pageheadermodule
   },
     data() {
         return {
